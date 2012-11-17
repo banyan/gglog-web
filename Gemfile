@@ -9,7 +9,6 @@ gem 'turbolinks'
 
 gem 'mysql2'
 
-gem 'omniauth'
 gem 'omniauth-github'
 
 gem 'rails_config'

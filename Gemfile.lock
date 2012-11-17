@@ -263,7 +263,6 @@ DEPENDENCIES
   journey!
   jquery-rails
   mysql2
-  omniauth
   omniauth-github
   pry-rails
   quiet_assets!

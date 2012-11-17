@@ -1,3 +1,5 @@
+OmniAuth.config.logger = Rails.logger
+
 Rails.application.config.middleware.use OmniAuth::Builder do
-  provider :github, 'CONSUMER_KEY', 'CONSUMER_SECRET'
+  provider :github, Settings.github.client_id, Settings.github.client_secret
 end
