@@ -1,0 +1,74 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the top of the
+ * compiled file, but it's generally better to create a new file per style scope.
+ *
+ *= require base
+ *= require layout
+ *= require skeleton
+ *= require_tree .
+ *= require_self
+ */
+
+@import url("https://fonts.googleapis.com/css?family=Share+Tech+Mono");
+
+$font-family: 'Share Tech Mono', Helvetica, Arial, sans-serif;
+
+$base-font-color: #333;
+
+$font-color: $base-font-color;
+$font-size: 100%;
+$font-size-small: 90%;
+$font-size-large: 110%;
+$line-height: 1.66;
+$line-height-small: $line-height * 0.8;
+$letter-spacing: 0;
+
+@mixin font($type: default) {
+  @if $type == default {
+    color: $font-color;
+    font-size: $font-size;
+    line-height: $line-height;
+    letter-spacing: $letter-spacing;
+  } @else if $type == reset {
+    color: $font-color;
+    font-size: $font-size;
+    line-height: 1;
+    letter-spacing: $letter-spacing;
+  } @else if $type == link {
+    color: $font-color;
+    text-decoration: none;
+    background: none;
+  } @else if $type == bubble {
+    color: $font-color;
+    font-size: $font-size-small;
+    line-height: $line-height-small;
+    letter-spacing: $letter-spacing;
+  } @else if $type == header {
+    color: $font-color;
+    font-size: $font-size-large;
+    font-weight: normal;
+    line-height: $line-height;
+    letter-spacing: $letter-spacing;
+  } @else if $type == footer {
+    color: $font-color;
+    font-size: $font-size-small;
+    line-height: $line-height;
+    letter-spacing: $letter-spacing;
+  }
+
+  font-family: $font-family;
+}
+
+body {
+  @include font(reset);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  @include font(header);
+}

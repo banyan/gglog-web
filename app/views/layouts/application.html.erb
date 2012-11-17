@@ -1,14 +1,32 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Lit</title>
+  <title>Lost In Commit Message</title>
   <%= stylesheet_link_tag    "application", media: "all" %>
   <%= javascript_include_tag "application" %>
   <%= csrf_meta_tags %>
 </head>
 <body>
-
-<%= yield %>
-
+  <div class='container'>
+    <header>
+      <div class='eight columns logo'>
+        <h1><%= link_to "Lost In Commit Message", root_path %></h1>
+      </div>
+      <nav class='eight columns'>
+        <ul>
+          <li><a href="/about">About</a></li>
+          <li><a href="/about">Recent Query</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div class='content'>
+      <div class='sixteen columns'>
+        <h2 class='strapline'>Find good commit message!</h2>
+      </div>
+      <div class='grid infinite'>
+        <%= yield %>
+      </div>
+    </div>
+  </div>
 </body>
 </html>
