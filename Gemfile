@@ -5,11 +5,11 @@ gem 'rails', github: 'rails/rails'
 # for edge rails
 gem 'journey',                         github: 'rails/journey'
 gem 'activerecord-deprecated_finders', github: 'rails/activerecord-deprecated_finders'
+gem 'turbolinks'
 
 gem 'mysql2'
 
 gem 'omniauth-github'
-gem 'turbolinks'
 gem 'rails_config'
 
 group :assets do
@@ -26,13 +26,12 @@ end
 group :development, :test do
   gem "tapp"
   gem "awesome_print"
+  gem "wirb"
+  gem "hirb-unicode"
+  gem "pry-rails"
 end
 
 group :development, :test do
-  gem "wirb"
-  gem "hirb-unicode"
-  gem "quiet_assets", github: 'banyan/quiet_assets', branch: 'fix-dependency'
-  gem "pry-rails"
   gem "rspec-rails"
   gem "fabrication"
   gem "faker"
@@ -43,4 +42,5 @@ group :development, :test do
   gem 'guard-livereload'
   gem 'rb-fsevent', '~> 0.9.1'
   gem "growl" if system('which growlnotify >/dev/null')
+  gem "quiet_assets", github: 'banyan/quiet_assets', branch: 'fix-dependency'
 end
