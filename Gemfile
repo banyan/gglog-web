@@ -1,13 +1,12 @@
 source 'https://rubygems.org'
 
-# for edge rails
 gem 'rails', github: 'rails/rails'
 
 # for edge rails
 gem 'journey',                         github: 'rails/journey'
 gem 'activerecord-deprecated_finders', github: 'rails/activerecord-deprecated_finders'
 
-gem 'sqlite3'
+gem 'mysql2'
 
 group :assets do
   # for edge rails
