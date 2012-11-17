@@ -3,4 +3,4 @@
 
 require File.expand_path('../config/application', __FILE__)
 
-Lit::Application.load_tasks
+Licm::Application.load_tasks

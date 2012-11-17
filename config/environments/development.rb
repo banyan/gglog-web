@@ -1,4 +1,4 @@
-Lit::Application.configure do
+Licm::Application.configure do
   # Settings specified here will take precedence over those in config/application.rb.
 
   # In the development environment your application's code is reloaded on
@@ -23,7 +23,7 @@ Lit::Application.configure do
   config.action_dispatch.best_standards_support = :builtin
 
   # Log the query plan for queries taking more than this (works
-  # with SQLite, MySQL, and PostgreSQL).
+  # with SQLicme, MySQL, and PostgreSQL).
   config.active_record.auto_explain_threshold_in_seconds = 0.5
 
   # Raise an error on page load if there are pending migrations

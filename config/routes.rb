@@ -1,4 +1,4 @@
-Lit::Application.routes.draw do
+Licm::Application.routes.draw do
   root 'root#index'
 
   # Example of regular route:
