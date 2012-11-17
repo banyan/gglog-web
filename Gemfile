@@ -8,6 +8,9 @@ gem 'activerecord-deprecated_finders', github: 'rails/activerecord-deprecated_fi
 
 gem 'mysql2'
 
+gem 'omniauth'
+gem 'omniauth-github'
+
 group :assets do
   # for edge rails
   gem 'sprockets',       github: 'sstephenson/sprockets'
