@@ -5,12 +5,11 @@ gem 'rails', github: 'rails/rails'
 # for edge rails
 gem 'journey',                         github: 'rails/journey'
 gem 'activerecord-deprecated_finders', github: 'rails/activerecord-deprecated_finders'
-gem 'turbolinks'
 
 gem 'mysql2'
 
 gem 'omniauth-github'
-
+gem 'turbolinks'
 gem 'rails_config'
 
 group :assets do
@@ -38,8 +37,8 @@ group :development, :test do
   gem "fabrication"
   gem "faker"
   gem "database_cleaner"
-  gem "timecop"
-  gem "capybara-webkit"
+  gem "capybara"
+  gem "launchy"
   gem "guard-rspec"
   gem 'guard-livereload'
   gem 'rb-fsevent', '~> 0.9.1'

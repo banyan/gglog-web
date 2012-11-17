@@ -1,6 +1,7 @@
 Licm::Application.routes.draw do
   root 'root#index'
 
-  get '/auth/:provider/callback' => 'sessions#callback', as: :callback
-  get '/signout'                 => 'sessions#destroy',  as: :signout
+  get '/signin'                  => redirect('/auth/github'), as: :signin
+  get '/signout'                 => 'sessions#destroy',       as: :signout
+  get '/auth/:provider/callback' => 'sessions#callback',      as: :callback
 end
