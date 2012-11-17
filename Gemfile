@@ -5,24 +5,25 @@ gem 'rails', github: 'rails/rails'
 # for edge rails
 gem 'journey',                         github: 'rails/journey'
 gem 'activerecord-deprecated_finders', github: 'rails/activerecord-deprecated_finders'
+gem 'turbolinks'
 
 gem 'mysql2'
 
 gem 'omniauth'
 gem 'omniauth-github'
 
+gem 'rails_config'
+
 group :assets do
   # for edge rails
   gem 'sprockets',       github: 'sstephenson/sprockets'
   gem 'sprockets-rails', github: 'rails/sprockets-rails'
-  gem 'jquery-rails'
   gem 'sass-rails',      github: 'rails/sass-rails'
   gem 'coffee-rails',    github: 'rails/coffee-rails'
+  gem 'jquery-rails'
   gem 'uglifier', '>= 1.0.3'
   gem 'skeleton-rails'
 end
-
-gem 'turbolinks'
 
 group :development, :test do
   gem "tapp"
