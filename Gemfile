@@ -12,6 +12,7 @@ group :assets do
   # for edge rails
   gem 'sprockets',       github: 'sstephenson/sprockets'
   gem 'sprockets-rails', github: 'rails/sprockets-rails'
+  gem 'jquery-rails'
   gem 'sass-rails',      github: 'rails/sass-rails'
   gem 'coffee-rails',    github: 'rails/coffee-rails'
   gem 'uglifier', '>= 1.0.3'
