@@ -37,9 +37,11 @@ group :development, :test do
   gem "rspec-rails"
   gem "fabrication"
   gem "faker"
+  gem "database_cleaner"
   gem "timecop"
   gem "capybara-webkit"
-  gem "guard-spork"
   gem "guard-rspec"
+  gem 'guard-livereload'
+  gem 'rb-fsevent', '~> 0.9.1'
   gem "growl" if system('which growlnotify >/dev/null')
 end
