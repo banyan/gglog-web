@@ -6,9 +6,8 @@ GIT
     fabrication (2.5.0)
 
 GIT
-  remote: git://github.com/banyan/quiet_assets.git
-  revision: 83441f790c633c55964d650078df1037b87cc7b5
-  branch: fix-dependency
+  remote: git://github.com/evrone/quiet_assets.git
+  revision: 913656d6be5a0b54c883249c211ce0f5271d82b9
   specs:
     quiet_assets (1.0.1)
       railties (>= 3.1, < 5.0)

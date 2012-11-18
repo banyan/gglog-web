@@ -42,5 +42,5 @@ group :development, :test do
   gem 'guard-livereload'
   gem 'rb-fsevent', '~> 0.9.1'
   gem "growl" if system('which growlnotify >/dev/null')
-  gem "quiet_assets", github: 'banyan/quiet_assets', branch: 'fix-dependency'
+  gem "quiet_assets", github: "evrone/quiet_assets"
 end
