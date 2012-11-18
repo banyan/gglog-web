@@ -1,4 +1,11 @@
 GIT
+  remote: git://github.com/banyan/fabrication.git
+  revision: 59667824628e13134fbf053d3983eaf3d8a0d340
+  branch: works-with-rails4
+  specs:
+    fabrication (2.5.0)
+
+GIT
   remote: git://github.com/banyan/quiet_assets.git
   revision: 83441f790c633c55964d650078df1037b87cc7b5
   branch: fix-dependency
@@ -127,7 +134,6 @@ GEM
     eventmachine (1.0.0)
     execjs (1.4.0)
       multi_json (~> 1.0)
-    fabrication (2.5.0)
     faker (1.1.2)
       i18n (~> 0.5)
     faraday (0.8.4)
@@ -257,7 +263,7 @@ DEPENDENCIES
   capybara
   coffee-rails!
   database_cleaner
-  fabrication
+  fabrication!
   faker
   guard-livereload
   guard-rspec

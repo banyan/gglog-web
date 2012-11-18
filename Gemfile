@@ -23,7 +23,7 @@ group :assets do
   gem 'skeleton-rails'
 end
 
-group :development, :test do
+group :development do
   gem "tapp"
   gem "awesome_print"
   gem "wirb"
@@ -33,7 +33,7 @@ end
 
 group :development, :test do
   gem "rspec-rails"
-  gem "fabrication"
+  gem "fabrication", github: 'banyan/fabrication', branch: 'works-with-rails4'
   gem "faker"
   gem "database_cleaner"
   gem "capybara"
