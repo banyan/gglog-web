@@ -11,6 +11,7 @@ gem 'mysql2'
 
 gem 'omniauth-github'
 gem 'rails_config'
+gem 'tire'
 
 group :assets do
   # for edge rails
