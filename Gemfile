@@ -33,7 +33,7 @@ end
 
 group :development, :test do
   gem "rspec-rails"
-  gem "fabrication", github: 'banyan/fabrication', branch: 'works-with-rails4'
+  gem "fabrication", github: 'paulelliott/fabrication', branch: 'activerecord4'
   gem "faker"
   gem "database_cleaner"
   gem "capybara"
