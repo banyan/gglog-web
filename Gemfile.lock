@@ -234,7 +234,6 @@ GEM
       libwebsocket (~> 0.1.3)
       multi_json (~> 1.0)
       rubyzip
-    skeleton-rails (0.0.2)
     slop (3.3.3)
     tapp (1.4.0)
       thor
@@ -279,7 +278,6 @@ DEPENDENCIES
   rb-fsevent (~> 0.9.1)
   rspec-rails
   sass-rails!
-  skeleton-rails
   sprockets!
   sprockets-rails!
   tapp

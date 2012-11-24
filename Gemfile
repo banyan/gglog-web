@@ -20,7 +20,6 @@ group :assets do
   gem 'coffee-rails',    github: 'rails/coffee-rails'
   gem 'jquery-rails'
   gem 'uglifier', '>= 1.0.3'
-  gem 'skeleton-rails'
 end
 
 group :development do
