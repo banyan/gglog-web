@@ -3,4 +3,4 @@
 
 require File.expand_path('../config/application', __FILE__)
 
-Licm::Application.load_tasks
+GglogWeb::Application.load_tasks

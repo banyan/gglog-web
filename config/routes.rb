@@ -1,4 +1,4 @@
-Licm::Application.routes.draw do
+GglogWeb::Application.routes.draw do
   root 'root#index'
 
   get '/signin'                  => redirect('/auth/github'), as: :signin

@@ -9,4 +9,4 @@
 
 # Make sure your secret_key_base is kept private
 # if you're sharing your code publicly.
-Licm::Application.config.secret_key_base = '6e53eb74c48d5e93eb80cd5098ed857d22798ffa4f554838c9c523c59bf2469276be7a52073942908318d6e43065f6d8efd0eb675314ef0f3827793c2fc8a783'
+GglogWeb::Application.config.secret_key_base = '6e53eb74c48d5e93eb80cd5098ed857d22798ffa4f554838c9c523c59bf2469276be7a52073942908318d6e43065f6d8efd0eb675314ef0f3827793c2fc8a783'

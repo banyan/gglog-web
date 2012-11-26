@@ -1,4 +1,4 @@
-Licm::Application.configure do
+GglogWeb::Application.configure do
   # Settings specified here will take precedence over those in config/application.rb.
 
   # Code is not reloaded between requests.
@@ -70,7 +70,7 @@ Licm::Application.configure do
   config.active_support.deprecation = :notify
 
   # Log the query plan for queries taking more than this (works
-  # with SQLicme, MySQL, and PostgreSQL).
+  # with SQGglogWebe, MySQL, and PostgreSQL).
   # config.active_record.auto_explain_threshold_in_seconds = 0.5
 
   # Disable automatic flushing of the log to improve performance.
